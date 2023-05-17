@@ -1,0 +1,126 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap');
+
+
+/* Base styles for the HTML element */
+html {
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Styles for the header section */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1000;
+}
+
+/* Styles for the navigation tools */
+.navtools {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Styles for the navigation links */
+#About,
+#Career:hover,
+#Departments:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+
+#Career,
+#Departments {
+    color: #ababab;
+}
+
+/* Styles for the lead section */
+.leadsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+}
+
+/* Styles for the header paragraph */
+#headerp {
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+
+/* Styles for the two paragraphs */
+.twoparagraphs {
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Styles for the first paragraph */
+.p1 {
+    padding-right: 30px;
+}
+
+/* Styles for the sections */
+.for1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.for2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.for3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+/* Styles for the for section */
+.forsection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015

@@ -1,0 +1,206 @@
+/* Importing fonts from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap);
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/* Base styles for the HTML element */
+html {
+    font-family: sans-serif; /* Default font family */
+    color: black; /* Default text color */
+}
+
+/* Styles for the header image */
+header img {
+    width: 268px;
+    height: 33px;
+}
+
+/* Styles for the header section */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1000;
+}
+
+/* Styles for navigation tools */
+.navtools {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Styles for navigation links */
+#About,
+#Career:hover,
+#Departments:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+
+#Career,
+#Departments {
+    color: #ababab;
+}
+
+/* Styles for navigation tools font */
+.navtools {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Styles for the header logo */
+#headerlogo {
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+}
+
+/* Styles for the lead section */
+.leadsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+}
+
+/* Styles for the header paragraph */
+#headerp {
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+
+/* Styles for two paragraphs */
+.twoparagraphs {
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.p1 {
+    padding-right: 30px;
+}
+
+/* Styles for section 2 */
+.for1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.for2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.for3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+.forsection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+/* Styles for the section titles */
+.sectiontitle {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Styles for the section descriptions */
+.sectiondesc {
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Styles for the section buttons */
+.sectionbtn {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+/* Styles for the footer section */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+    background-color: #f2f2f2;
+}
+
+/* Styles for the footer links */
+.footerlinks {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 14px;
+}
+
+/* Styles for the footer logo */
+.footerlogo {
+    width: 35px;
+    aspect-ratio: auto 35 / 35;
+    height: 35px;
+}
+
+/* Styles for the footer social media icons */
+.footersocial {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Styles for the footer text */
+.footertext {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+/* Styles for the copyright section */
+.copyright {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 10px;
+}
